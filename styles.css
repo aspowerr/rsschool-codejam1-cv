@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("resource/programming.jpg");
+    background-size: 100% 100%;
+    text-align: justify;
+}
+
+.text-resume{
+    text-align: center;
+    font-size:25px;
+}
+
+.main-h{
+font-size: 50px;
+}
+
+.resume{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 1024px;
+}
+
+.image{
+    float: left; 
+    margin-right: 30px;
+}
+
+.image:hover
+{
+    transform: scale(1.3);
+}
+
+.contacts{
+    margin-top: 30px;
+}
+
+.other{
+    margin-top: 30px;
+}
+
+p, ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill > li{
+    list-style-type: none;
+}
+
+.english > li{
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-width: 7px;
+    opacity: 0.1;
+}
