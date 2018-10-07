@@ -55,7 +55,7 @@ p, ul{
     list-style-type: none;
 }
 
-.skill > li: hover{
+.skill > li > img:hover{
     transform: scale(1.3);
 }
 
