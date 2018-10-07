@@ -55,6 +55,10 @@ p, ul{
     list-style-type: none;
 }
 
+.skill > li: hover{
+    transform: scale(1.3);
+}
+
 .english > li{
     margin-left: 20px;
     list-style-type: square;
